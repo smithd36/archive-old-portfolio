@@ -60,9 +60,13 @@ const Home = () => {
           that provide pixel-perfect experiences. I have a strong passion for
           software and web development, with a primary focus on front-end engineering.
           <br />
+          <Link to="/about" className="flat-button">
+            About Me
+          </Link>
           <Link to="/contact" className="flat-button">
             Get in Touch!
           </Link>
+
           </h2>
         </span>
         <Logo className="logo"/>

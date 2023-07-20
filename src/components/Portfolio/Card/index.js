@@ -6,7 +6,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Card = ({ title, description, image, projectLink }) => {
 
   return (
-    <div className="card" style={{ backgroundImage: `url(${image})` }}>
+    <div className="card" style={{ 
+      backgroundImage: `url(${image})`,
+      backgroundSize: 'cover', // or 'contain' based on your preference
+      }}>      
       <div className="content">
         <h3>{title}</h3>
         <p>{description}</p>
