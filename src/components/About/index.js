@@ -11,7 +11,6 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TechStack from '../TechStack'
-import Portfolio from '../Portfolio'
 import './index.scss'
 
 
@@ -47,11 +46,9 @@ const About = () => {
             University in December of 2023 with a Bachelor's of Computer Science. I am also pursuing CompTIA A+, CompTIA Security+ 
             and CompTIA Network+ I.T. certifications at this time.
             <br />
-            <br />
-            Here are some recent projects I've worked on:
           </p>
           
-          <Portfolio />
+          {/*<Portfolio /> */}
 
           <p>            
             I'm quietly confident, naturally curious, and perpetually working on
@@ -60,6 +57,7 @@ const About = () => {
             such as Python. I have also built many different software projects in a variety of other programming languages and frameworks.
             <br />
           </p>
+          <p>Take a look at my <a href="./Portfolio" className="to-portfolio">Projects</a></p>
           <TechStack />
         </div>
       </div>

@@ -5,11 +5,17 @@
 
     .logo {
       max-width: 60%;
+      margin-right: 15%;
     }
 }
 
   @media screen and (min-width: 481px) and (max-width: 767px) {
     // Styles for Large Mobile, Small Device
+    .logo-container {
+      .logo {
+        margin-top: 12rem;
+      }
+    }
   }
 
   @media screen and (min-width: 768px) and (max-width: 991px) {

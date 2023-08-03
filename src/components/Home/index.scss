@@ -83,6 +83,14 @@
   }
 }
 
+  @media screen and (max-width: 300px) {
+    .home-page {
+      .logo {
+        margin-bottom: -30rem;
+      }
+    }
+  }
+
   @media screen and (max-width: 500px) {
     // Styles for Mobile Devices
     .home-page {
@@ -105,7 +113,7 @@
       }
     }
     .logo {
-      margin-bottom: -160%;
+      margin-bottom: -190%;
       margin-right: 25%;
       transform: scale(1.3658);
     }

@@ -11,17 +11,21 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   const nameArray = ['r', 'e', 'y'];
   const jobArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
+    'F',
+    'r',
     'o',
-    'p',
+    'n',
+    't',
+    'e',
+    'n',
+    'd',
+    ' ',
+    'E',
+    'n',
+    'g',
+    'i',
+    'n',
+    'e',
     'e',
     'r'
   ];
@@ -62,6 +66,9 @@ const Home = () => {
           <br />
           <Link to="/about" className="flat-button">
             About Me
+          </Link>
+          <Link to="/portfolio" className="flat-button">
+            My Projects
           </Link>
           <Link to="/contact" className="flat-button">
             Get in Touch!

@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoS from '../../assets/images/logo-s.png';
-import { faEnvelope, faHome, faUser, faArrowsUpToLine } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faUser, faArrowsUpToLine, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
@@ -25,7 +25,7 @@ const Sidebar = () => {
           onClick={toggleSidebar}
         />
     
-        <img src={LogoS} alt="logo" to="/" />
+        <img src={LogoS} alt="logo" to="/"/>
       </Link>
       <nav>
         <NavLink exact={true} activeClassName="active" to="/" onClick={toggleSidebar}>
@@ -34,6 +34,10 @@ const Sidebar = () => {
 
         <NavLink exact={true} activeClassName="active" className="about-link" to="/about" onClick={toggleSidebar}>
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+
+        <NavLink exact={true} activeClassName="active" className="portfolio-link" to="/portfolio" onClick={toggleSidebar}>
+          <FontAwesomeIcon icon={faCodeBranch} color="#4d4d4e" />
         </NavLink>
 
         <NavLink exact={true} activeClassName="active" className="contact-link" to="/contact" onClick={toggleSidebar}>
