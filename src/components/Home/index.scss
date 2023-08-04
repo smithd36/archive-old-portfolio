@@ -60,6 +60,7 @@
     }
   
     .flat-button {
+      display: flex;
       color: #64B1DB;
       font-size: 13px;
       font-weight: 400;
@@ -91,9 +92,49 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 434px) {
     // Styles for Mobile Devices
     .home-page {
+      .flat-button {
+        transform: scale(0.7);
+        margin-bottom: -2rem;
+        display: grid;
+        
+      }
+      .text-zone {
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 10%;
+
+        h1 {
+          font-size: 2.5vh;
+          line-height: 3.3vh;
+
+          img {
+            width: 5.1145vh;
+          }
+        }
+        h2 {
+          font-size: 1.30vh;
+        }
+      }
+    }
+    .logo {
+      margin-bottom: -190%;
+      margin-right: 25%;
+      transform: scale(1.3658);
+    }
+  }
+  
+  @media screen and (min-width: 434px) and (max-width: 500px) {
+    // Styles for Mobile Devices
+    .home-page {
+      .flat-button {
+        transform: scale(0.7);
+        margin-bottom: -2rem;
+        display: grid;
+        
+      }
       .text-zone {
         width: 70%;
         margin-top: 20%;
